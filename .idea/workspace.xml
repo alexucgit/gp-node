@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8184ecc4-e9b3-4b61-8a49-b8e2d69bce21" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-gp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/32101574.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/GP.PNG" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,11 +47,23 @@
       <updated>1633978006276</updated>
       <workItem from="1633978008127" duration="9701000" />
       <workItem from="1633989345213" duration="106000" />
-      <workItem from="1634063788789" duration="5067000" />
+      <workItem from="1634063788789" duration="5410000" />
     </task>
+    <task id="LOCAL-00001" summary="fix server">
+      <created>1634072187737</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1634072187737</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix server" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix server" />
   </component>
 </project>
