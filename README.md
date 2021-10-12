@@ -24,7 +24,9 @@ node app.js
 ## License
 
 MIT
+
 **Free Software, Hell Yeah!**
-Ogni contributo è utile! <3
+
+Ogni contributo è utile!
 
    [DCC-UTILS]: <https://github.com/ministero-salute/dcc-utils>
