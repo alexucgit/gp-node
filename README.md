@@ -9,11 +9,11 @@ Applicazione in node che utilizza la lib [DCC-UTILS] del Ministero della Salute 
 
 Nessun dato viene salvato!
 
-## Installation
+## Installazione
 
 Richiede [Node.js](https://nodejs.org/) e [NPM](http://https://www.npmjs.com).
 
-Install the dependencies and devDependencies and start the server.
+Installare le dipendenze e avvia il server-
 
 ```sh
 cd gp
@@ -25,5 +25,6 @@ node app.js
 
 MIT
 **Free Software, Hell Yeah!**
+Ogni contributo è utile! <3
 
    [DCC-UTILS]: <https://github.com/ministero-salute/dcc-utils>
