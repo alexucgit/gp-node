@@ -134,7 +134,7 @@ const main = (async () => {
 
 			res.statusCode = 200;
 			res.setHeader('Content-Type', 'application/json');
-			res.send({result: false, message: "Firma non valida"});
+			res.send(Object.assign({result: false, message: "Firma non valida"}, dcc));
 			return;
 		}
 
@@ -157,15 +157,14 @@ const main = (async () => {
 			let forename = dcc.payload.nam.gn;
 			let dob = dcc.payload.dob;
 			response = validate + " - " + surname + " " + forename + " (" + dob + ")";*/
-			response = dcc;
+			response = Object.assign(validate, dcc);
 		} else {
-			response = validate;
+			response = Object.assign(validate, dcc);
 		}
 
 		res.statusCode = 200;
 		res.setHeader('Content-Type', 'application/json');
-		if(validate.result) res.send(response);
-		else res.send(validate)
+		res.send(response);
 	});
 
 	app.listen(port, () => {
