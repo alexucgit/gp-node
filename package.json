@@ -1,14 +1,12 @@
 {
-  "name": "gp-server",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "name": "node-js-getting-started",
+  "version": "0.3.0",
+  "description": "A sample Node.js app using Express 4",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "node test-horeku.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "dayjs": "^1.10.7",
     "dcc-utils": "^0.2.0",
@@ -17,6 +15,23 @@
     "node-cron": "^3.0.0",
     "node-fetch": "^2.6.2",
     "timezone": "^1.0.23",
-    "utc": "^0.1.0"
-  }
+    "utc": "^0.1.0",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.5",
+    "esm": "^3.2.25"
+  },
+  "devDependencies": {
+    "got": "^11.3.0",
+    "tape": "^4.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/node-js-getting-started"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
 }

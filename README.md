@@ -1,35 +1,39 @@
-# Verifica GreenPass node-server
+# node-js-getting-started
 
+A barebones Node.js app using [Express 4](http://expressjs.com/).
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+This application supports the [Getting Started on Heroku with Node.js](https://devcenter.heroku.com/articles/getting-started-with-nodejs) article - check it out.
 
-Applicazione in node che utilizza la lib [DCC-UTILS] del Ministero della Salute per controllare la validità del GreenPass.
-Il codice riutilizza quasi completamente quello del ValidatorServer di [Luca Dentella](https://github.com/lucadentella/raspberry-dgc), lavoro eccellente: l'ho adattato al frontend.
+## Running Locally
 
-Per gli utilizzatori o amanti del mondo Raspberry vi consiglio di dare un occhiata a [Raspberry-dgc](https://github.com/lucadentella/raspberry-dgc)
-
-## Prima di iniziare
-
-Nessun dato viene salvato!
-
-## Installazione
-
-Richiede [Node.js](https://nodejs.org/) e [NPM](http://https://www.npmjs.com).
-
-Installare le dipendenze e avvia il server-
+Make sure you have [Node.js](http://nodejs.org/) and the [Heroku CLI](https://cli.heroku.com/) installed.
 
 ```sh
-cd gp
-npm i
-node app.js
+$ git clone https://github.com/heroku/node-js-getting-started.git # or clone your own fork
+$ cd node-js-getting-started
+$ npm install
+$ npm start
 ```
 
-## License
+Your app should now be running on [localhost:5000](http://localhost:5000/).
 
-MIT
+## Deploying to Heroku
 
-**Free Software, Hell Yeah!**
+```
+$ heroku create
+$ git push heroku main
+$ heroku open
+```
+or
 
-Ogni contributo è utile!
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-   [DCC-UTILS]: <https://github.com/ministero-salute/dcc-utils>
+## Documentation
+
+For more information about using Node.js on Heroku, see these Dev Center articles:
+
+- [Getting Started on Heroku with Node.js](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
+- [Heroku Node.js Support](https://devcenter.heroku.com/articles/nodejs-support)
+- [Node.js on Heroku](https://devcenter.heroku.com/categories/nodejs)
+- [Best Practices for Node.js Development](https://devcenter.heroku.com/articles/node-best-practices)
+- [Using WebSockets on Heroku with Node.js](https://devcenter.heroku.com/articles/node-websockets)
