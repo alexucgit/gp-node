@@ -1,7 +1,7 @@
 # Verifica GreenPass node-server
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/N4N06L91H)
 Applicazione in node che utilizza la lib [DCC-UTILS] del Ministero della Salute per controllare la validità del GreenPass.
 
 Il codice riutilizza quasi completamente quello del ValidatorServer di [Luca Dentella](https://github.com/lucadentella/raspberry-dgc), lavoro eccellente: l'ho adattato al frontend.
